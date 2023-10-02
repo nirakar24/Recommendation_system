@@ -42,7 +42,7 @@ def recommend_movies(title, cosine_sim=cosine_sim):
         sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
 
         # Get the top 10 similar movies (excluding the movie itself)
-        sim_scores = sim_scores[1:2]
+        sim_scores = sim_scores[1:5]
 
         # Get the movie index
         movie_indices = [i[0] for i in sim_scores]
