@@ -241,7 +241,7 @@ nav li a{
 
 @media screen and (max-width: 768px){
     body{
-        background-color: #040506;
+        background-color: #040508;
         font-size: 18px;
     }
 
@@ -279,7 +279,8 @@ nav li a{
 
     .right{
         margin-top: 2rem;
-        height: 90vh;
+        margin-bottom: 2rem;
+        height: 85vh;
         top: 30%;
         font-size: 16px;
         width: 80%;
