@@ -75,6 +75,8 @@ li {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2vw;
 }
 
 /* Style the movie cover images */
@@ -179,7 +181,8 @@ nav li a{
 
 .overlay {
     /* Set the overlay color and opacity */
-    background-color: rgba(0, 0, 0, 0.774); /* Adjust the alpha value (0.5) for opacity */
+    /* background-color: rgba(0, 0, 0, 0.774);Adjust the alpha value (0.5) for opacity */
+    background: radial-gradient(transparent, black);
     
     /* Position and size the overlay to cover the container */
     position: absolute;
